@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet author="admin" id="2">
+        <insert tableName="blog">
+            <column name="id" valueNumeric="1"/>
+            <column name="photo" value="test photo"/>
+            <column name="title" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus sem, egestas vitae bibendum vitae, imperdiet eget ante. Suspendisse nec congue est. Donec vulputate lorem at orci suscipit interdum. Quisque non mollis elit. Vestibulum iaculis pharetra purus a porttitor. Sed efficitur orci quam, sit amet lacinia est consectetur ac. Duis turpis tellus, volutpat at orci ut, volutpat lobortis eros."/>
+            <column name="date" value="2021-07-26"/>
+            <column name="number_Of_Reads" value="12"/>
+            <column name="minutes_To_Read" value="12"/>
+        </insert>
+        <insert tableName="blog">
+            <column name="id" valueNumeric="2"/>
+            <column name="photo" value="test photo"/>
+            <column name="title" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus sem, egestas vitae bibendum vitae, imperdiet eget ante. Suspendisse nec congue est. Donec vulputate lorem at orci suscipit interdum. Quisque non mollis elit. Vestibulum iaculis pharetra purus a porttitor. Sed efficitur orci quam, sit amet lacinia est consectetur ac. Duis turpis tellus, volutpat at orci ut, volutpat lobortis eros."/>
+            <column name="date" value="2021-07-26"/>
+            <column name="number_Of_Reads" value="12"/>
+            <column name="minutes_To_Read" value="12"/>
+        </insert>
+        <insert tableName="blog">
+            <column name="id" valueNumeric="3"/>
+            <column name="photo" value="test photo"/>
+            <column name="title" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus sem, egestas vitae bibendum vitae, imperdiet eget ante. Suspendisse nec congue est. Donec vulputate lorem at orci suscipit interdum. Quisque non mollis elit. Vestibulum iaculis pharetra purus a porttitor. Sed efficitur orci quam, sit amet lacinia est consectetur ac. Duis turpis tellus, volutpat at orci ut, volutpat lobortis eros."/>
+            <column name="date" value="2021-07-26"/>
+            <column name="number_Of_Reads" value="12"/>
+            <column name="minutes_To_Read" value="12"/>
+        </insert>
+        <insert tableName="blog">
+            <column name="id" valueNumeric="4"/>
+            <column name="photo" value="test photo"/>
+            <column name="title" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus sem, egestas vitae bibendum vitae, imperdiet eget ante. Suspendisse nec congue est. Donec vulputate lorem at orci suscipit interdum. Quisque non mollis elit. Vestibulum iaculis pharetra purus a porttitor. Sed efficitur orci quam, sit amet lacinia est consectetur ac. Duis turpis tellus, volutpat at orci ut, volutpat lobortis eros."/>
+            <column name="date" value="2021-07-26"/>
+            <column name="number_Of_Reads" value="12"/>
+            <column name="minutes_To_Read" value="12"/>
+        </insert>
+        <insert tableName="blog">
+            <column name="id" valueNumeric="5"/>
+            <column name="photo" value="test photo"/>
+            <column name="title" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus sem, egestas vitae bibendum vitae, imperdiet eget ante. Suspendisse nec congue est. Donec vulputate lorem at orci suscipit interdum. Quisque non mollis elit. Vestibulum iaculis pharetra purus a porttitor. Sed efficitur orci quam, sit amet lacinia est consectetur ac. Duis turpis tellus, volutpat at orci ut, volutpat lobortis eros."/>
+            <column name="date" value="2021-07-26"/>
+            <column name="number_Of_Reads" value="12"/>
+            <column name="minutes_To_Read" value="12"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
